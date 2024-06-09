@@ -1,0 +1,75 @@
+# Excluir archivos binarios y de compilación
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.obj
+*.list
+
+# Excluir directorios de compilación
+/Debug/
+/Release/
+CM4/Debug/
+/CM4/Release/
+CM7/Debug/
+/CM7/Release/
+
+# Excluir archivos de configuración específicos del entorno de desarrollo
+/.settings/
+/.vscode/
+/.idea/
+/.ipch
+*.launch
+*.log
+*.bak
+*.swp
+*.swo
+*.swd
+*.tmp
+*.user
+
+# Excluir archivos de configuración de herramientas de construcción
+*.mk
+*.d
+
+# Excluir archivos de configuración de STM32CubeIDE
+*.cproject
+*.project
+*.mxproject
+*.ioc
+
+# Excluir archivos de configuración de Eclipse
+/.metadata/
+/bin/
+/gen/
+/out/
+
+# Excluir archivos de configuración de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Excluir archivos y directorios específicos de CM4 y CM7
+CM4/.settings/
+CM4/.cproject
+CM4/.project
+CM4/*.launch
+CM4/*.log
+CM4/*.bak
+CM4/*.swp
+CM4/*.swo
+CM4/*.swd
+CM4/*.tmp
+CM4/*.user
+
+CM7/.settings/
+CM7/.cproject
+CM7/.project
+CM7/*.launch
+CM7/*.log
+CM7/*.bak
+CM7/*.swp
+CM7/*.swo
+CM7/*.swd
+CM7/*.tmp
+CM7/*.user
